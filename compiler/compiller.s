@@ -37,5 +37,5 @@ main:                                   // @main
 	.asciz	"hello world\n"
 	.size	.L.str, 13
 
-	.ident	"clang version 20.1.6"
+	.ident	"clang version 20.1.7"
 	.section	".note.GNU-stack","",@progbits

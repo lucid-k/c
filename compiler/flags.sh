@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -E hello.c -o hello.i
-gcc -S hello.c -o hello.s
-gcc -c hello.c -o hello.o
-gcc hello.c -o hello
+gcc -E hello.c -o preprocessor.i
+gcc -S hello.c -o compiller.s
+gcc -c hello.c -o assembler.o
+gcc hello.c -o linker
