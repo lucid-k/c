@@ -28,8 +28,11 @@ int main(){
 		}else{
 			printf("Enter the correct operator choice\n");
 		}
-		printf("Do you wish to try again?\nType y to continue or any other letter to exit\n");
+		printf("Do you wish to try exit?\nType y to exit or any other letter to continue\n");
 		scanf(" %c",&prom);
-	}while(prom == 'y');
+		if(prom == 'y'){
+			break;
+		}
+	}while(1);
 	return(0);
 }
