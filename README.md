@@ -12,3 +12,4 @@
 8. Simple calculator. Prompts user for two operands, and perfoms simple arithmetic. Continues unless user exits.
 9. Same as (8)
 10. Cashier change dispenser.Prompts user for amount due and amount paid and calculates change. Prints change and the denominations to give.Tracks the number of coins and bills given.Checks amount paid is greatet than amount due.
+11. ATM machine simulation. Asks user to log in with a pin, shows a menu to: check balance, deposit, withdraw and exit the program.
